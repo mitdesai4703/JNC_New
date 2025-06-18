@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="hidden sm:flex items-center gap-8 text-blue-800 ">
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/products'>All Product</NavLink>
-        <NavLink to='/'>Contact</NavLink>
+        <NavLink to='/contactus'>Contact</NavLink>
 
         <div className="hidden lg:flex items-center text-sm gap-2 border px-3 rounded-full bg-red-600 ">
           <input onChange={(e)=> setSearchQuery(e.target.value)} className="py-1.5 w-full bg-red-600 outline-none placeholder-white" type="text" placeholder="Search products" />

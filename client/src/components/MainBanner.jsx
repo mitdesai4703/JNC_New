@@ -37,7 +37,7 @@ const MainBanner = () => {
           </Link>
 
           <Link
-            to="/products"
+            to=""
             className="group flex items-center gap-2 px-6 py-3 rounded border border-white text-white hover:bg-white hover:text-red-500 transition-all duration-300"
           >
             🔥 Explore Deals
